@@ -1,0 +1,19 @@
+[project]
+name = "recap"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mr. Fi$h", email = "77742137+MuhammadAsadkhalid@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+]
+
+[project.scripts]
+recap = "recap:main"
+
+[build-system]
+requires = ["uv_build>=0.8.23,<0.9.0"]
+build-backend = "uv_build"
